@@ -36,6 +36,13 @@ span {
   color: rgb(18, 189, 32);
 }
 
+.rows {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+}
+
 .column {
   flex: 1;
   margin: 10px;
