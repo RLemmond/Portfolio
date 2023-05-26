@@ -1,8 +1,8 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: a, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: aqua;
+  background-color: rgb(103, 129, 129);
 }
 
 title {
@@ -20,6 +20,7 @@ title {
 
 .column {
   flex-basis: 30%;
+  display: inline-block;
   margin: 10px;
 }
 
@@ -27,6 +28,7 @@ title {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: auto;
 }
 
 #name {
@@ -42,13 +44,19 @@ title {
 }
 
 .activities {
-  font-size: 1.5em;
+  font-size: 2em;
+  text-align: center;
 }
 
 .img2 {
-  display: flex;
+  display: flex width: 100%;
   height: auto;
-  justify-content: center;
+
+}
+
+.img2 img {
+  max-width: 100%;
+  height: 100%;
 }
 
 .current {
@@ -57,7 +65,7 @@ title {
 
 div {
   color: black;
-  background-color: antiquewhite;
+  background-color: rgb(75, 45, 45);
   text-align: center;
 }
 
