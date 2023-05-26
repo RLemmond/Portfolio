@@ -1,22 +1,38 @@
-.img1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: auto;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: aqua;
 }
 
 title {
   text-align: center;
 }
 
-.name {
-  color: rgb(146, 13, 35)
+.container {
+  flex-basis: 30%;
+  margin: 10%;
+  padding: 20px;
+  border: 10px solid plum;
+  background-color: red;
+  text-align: center;
 }
 
-.img2 {
+.column {
+  flex-basis: 30%;
+  margin: 10px;
+}
+
+.img1 {
   display: flex;
-  height: auto;
   justify-content: center;
+  align-items: center;
+}
+
+#name {
+  color: red;
+  font-size: 3em;
+  text-align: center;
 }
 
 .paragraphs {
@@ -25,10 +41,23 @@ title {
   color: rgb(43, 199, 43)
 }
 
+.activities {
+  font-size: 1.5em;
+}
+
+.img2 {
+  display: flex;
+  height: auto;
+  justify-content: center;
+}
+
+.current {
+  font-size: 2em;
+}
+
 div {
   color: black;
   background-color: antiquewhite;
-  float: center;
   text-align: center;
 }
 
@@ -42,24 +71,6 @@ span {
   background-color: red;
   margin: 10px;
   text-align: center;
-}
-
-.containers {
-  display: flex;
-  justify-content: center;
-}
-
-.column {
-  flex-basis: 30%;
-  margin: 10px;
-}
-
-.activities {
-  font-size: 1.5em;
-}
-
-.current {
-  font-size: 2em;
 }
 
 @media screen (max-width: 768px) {
