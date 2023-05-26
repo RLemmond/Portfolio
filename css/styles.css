@@ -72,9 +72,3 @@ span {
   margin: 10px;
   text-align: center;
 }
-
-@media screen (max-width: 768px) {
-  .containers {
-    flex-wrap: wrap;
-  }
-}
