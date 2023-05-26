@@ -5,8 +5,17 @@
   height: auto;
 }
 
+title {
+  text-align: center;
+}
+
+#name {
+  color: rgb(146, 13, 35)
+}
+
 .img2 {
   display: flex;
+  height: auto;
   justify-content: center;
 }
 
@@ -25,10 +34,6 @@ div {
 
 span {
   color: rgb(18, 189, 32);
-}
-
-#name {
-  color: pink
 }
 
 .column {
