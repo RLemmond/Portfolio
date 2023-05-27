@@ -14,14 +14,12 @@ title {
   margin: 10%;
   padding: 20px;
   text-align: center;
-
 }
 
 .column {
   flex-basis: 30%;
   display: inline-block;
   margin: 10px;
-  border-radius: 360px;
 }
 
 .img1 {
@@ -75,6 +73,7 @@ div {
   color: black;
   background-color: rgb(36, 36, 83);
   text-align: center;
+  border-radius: 50px;
 }
 
 span {
@@ -87,7 +86,7 @@ span {
   background-color: rgb(83, 83, 119);
   margin: 10px;
   text-align: center;
-  border-radius: 10%;
+  border-radius: 010%;
 }
 
 a {
