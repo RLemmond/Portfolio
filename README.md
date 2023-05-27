@@ -22,7 +22,7 @@ _This project is a webpage dedicated to the portfolio of the developer. The webs
 
 ## Setup/Installation Requirements
 
-* _Clone the repository: (https://github.com/RLemmond/Portfolio.git")_
+* _Clone the repository: (https://github.com/RLemmond/Portfolio.git)_
 * _Open the project in your preferred code editor._
 * _Launch the index.html file in a web browser._
 
