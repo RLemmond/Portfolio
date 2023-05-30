@@ -113,3 +113,8 @@ span {
 a {
   color: rgb(144, 134, 241);
 }
+
+.links {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(171, 216, 178);
+}
