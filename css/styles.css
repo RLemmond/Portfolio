@@ -1,12 +1,8 @@
 body {
-  font-family: a, Arial, Helvetica, sans-serif margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
   padding: 0;
   background-color: rgb(63, 99, 110);
-}
-
-title {
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .containers {
@@ -18,8 +14,6 @@ title {
 
 .column {
   flex-basis: 30%;
-  display: inline-block;
-  margin: 10px;
 }
 
 .container {
@@ -27,7 +21,7 @@ title {
   background-size: cover;
   background-position: center;
   padding: 40px;
-  max-width: 10000px;
+  max-width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,11 +29,8 @@ title {
 }
 
 .profile-image {
-  display: flex;
   max-width: 100%;
   height: auto;
-  justify-content: center;
-  align-items: center;
   border-radius: 50px;
 }
 
@@ -65,20 +56,14 @@ title {
 .activities {
   font-size: 2em;
   text-align: center;
-  color: rgb(0, 0, 0);
-  color: rgb(228, 226, 226);
+  color: rgb(182, 185, 138);
+  float: left
 }
 
 .img2 img {
   max-width: 50%;
   height: 50%;
   border-radius: 10px;
-}
-
-.img2 {
-  display: flex width: 50%;
-  height: auto;
-  border-radius: 100px;
 }
 
 .current {
